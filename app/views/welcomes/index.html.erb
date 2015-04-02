@@ -1,0 +1,25 @@
+
+<%= image_tag  "tm.png", size: "275x275" %>
+<h3>Thomas Midgett</h3>
+<div class="head-text">
+<%= link_to "Github", "https://github.com/Tmidge" %>
+<a href="#" onclick="toggle_visibility('Contact');">| Contact Information</a>
+</div>
+
+
+
+<div id="Contact">
+Phone | 919.884.6726 <br>
+Email | me@thomasmidgett.com<br>
+</div>
+
+
+<script type="text/javascript">
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+</script>
